@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h2>JavaScript String() Method</h2>
+        <p>The string() method can convert a number to a string.</p>
+        <p id="search_result"></p>
+        <p id="replace_result"></p>
+        <p id="string_result"></p>
+        <script>
+            var str = "hello how are doing for the day";
+            var search_position = str.search("for");
+            var txt = str.replace("how are" , "how are you")
+            var x = 70;
+            var y = 90;
+            document.getElementById("search_result").innerHTML = search_position;
+            document.getElementById("replace_result").innerHTML = txt;
+            document.getElementById("string_result").innerHTML = String(x) + String(y);
+        </script>
+    </body>
+</html>
